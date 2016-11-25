@@ -17,7 +17,7 @@ li {
 	float: right;
 }
 .event_cont {
-	width: 755px;
+	width: 611px;
 }
 .event_cont h2 {
 	margin: 0px 0px 7px 0px;
@@ -40,16 +40,19 @@ li {
 	text-shadow: 0px 1px 2px;
 	color: white;
 	height: 73px;
-	bottom: -12px;
+	    bottom: -6px;
 
 
 }
 .event_visible {
-	border-bottom: 1px solid #d8c3c3;
-	border-top: 1px solid #d8c3c3;
+	border-bottom: 1px solid #bdb2b2;
+	border-top: 1px solid #bdb2b2;
 	width: inherit;
 	height: 58px;
 	position: relative;
+	background:url(../images/yamap_s.gif) no-repeat ;
+	background-position: 102px 5px;
+	    padding-top: 6px;
 }
 .arrow {
 	height: inherit;
@@ -100,3 +103,17 @@ li {
 	margin-top: 20px;
 }
 
+
+/* Карта контакта 
+#map {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+*/
+
+.adr {
+	       margin-left: 165px;
+    font-size: 14px;
+}
