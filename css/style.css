@@ -1,0 +1,42 @@
+body ul {
+	margin: 0;
+}
+
+li {
+	list-style: none;
+}
+.arrow {
+	float: right;
+}
+.event_cont {
+	width: 755px;
+}
+.date {
+	float: left;
+	width: 66px;
+}
+.event_visible {
+	border-bottom: 1px solid #d8c3c3;
+	border-top: 1px solid #d8c3c3;
+	width: inherit;
+	height: 58px;
+}
+.arrow {
+	height: inherit;
+	width: inherit;
+}
+
+.arrow_cont {
+	background:url(../images/arrow.png) no-repeat ;
+	width: 35px;
+	height: 35px;
+	background-size: 98%;
+	margin: 9px 9px 0px 0px;
+	float: right;
+	background-position: 0px 0px;
+
+}
+.arrow_toggle {
+	background-position: 0px -32px;
+}
+
